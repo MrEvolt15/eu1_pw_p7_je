@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="./js/comportamiento.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="formulario">
+            <header></header>
+            <nav></nav>
+            <section>
+                <p class="alerta" id="alerta"></p>
+                    <form>
+                    <h2>Nuevo Profesor</h2>
+                    <p type="Cedula:"><input type="number" id="cedula"> </p>
+                    <p type="Nombre:"><input type="text" id="nombre"> </p>
+                    <p type="Apellido:"><input type="text" id="apellido"> </p>
+                    
+                    <div class="container">
+                        <a onclick="pulsarBotonGuardar()" class="boton">Guardar</a>
+                    </div>
+                    <h2>Json</h2>
+                    <input type="text" id="textoJson">
+                    <div class="container">
+                        <a onclick="pulsarBotonJson()" class="boton">Json</a>
+                        
+                    </div>
+                </form>
+            </section>
+            <footer>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
